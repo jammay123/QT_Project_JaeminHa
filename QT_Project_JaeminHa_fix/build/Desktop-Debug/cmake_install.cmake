@@ -1,4 +1,4 @@
-# Install script for directory: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa
+# Install script for directory: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

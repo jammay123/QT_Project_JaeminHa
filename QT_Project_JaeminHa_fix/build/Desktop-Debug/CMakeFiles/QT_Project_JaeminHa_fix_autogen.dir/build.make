@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa
+CMAKE_SOURCE_DIR = /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug
@@ -83,6 +83,6 @@ CMakeFiles/QT_Project_JaeminHa_fix_autogen.dir/clean:
 .PHONY : CMakeFiles/QT_Project_JaeminHa_fix_autogen.dir/clean
 
 CMakeFiles/QT_Project_JaeminHa_fix_autogen.dir/depend:
-	cd /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/CMakeFiles/QT_Project_JaeminHa_fix_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/CMakeFiles/QT_Project_JaeminHa_fix_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/QT_Project_JaeminHa_fix_autogen.dir/depend
 

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa
+CMAKE_SOURCE_DIR = /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug
@@ -69,15 +69,15 @@ include CMakeFiles/QT_Project_JaeminHa_fix.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/QT_Project_JaeminHa_fix.dir/flags.make
 
-QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/image_comfil.qrc
+QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: ../../image_comfil.qrc
 QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: CMakeFiles/QT_Project_JaeminHa_fix_autogen.dir/AutoRcc_image_comfil_EWIEGA46WW_Info.json
-QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/png-transparent-pixel-heart.png
-QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/mainpage_backgoround1.jpg
-QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/image_comfil.qrc
-QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/russian_rullet_image.jpg
-QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/hongchul_me.jpg
-QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/revolver.jpg
-QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/png-transparent-pixel-heart.png
+QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: ../../png-transparent-pixel-heart.png
+QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: ../../mainpage_backgoround1.jpg
+QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: ../../image_comfil.qrc
+QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: ../../russian_rullet_image.jpg
+QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: ../../hongchul_me.jpg
+QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: ../../revolver.jpg
+QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: ../../png-transparent-pixel-heart.png
 QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp: /usr/lib/qt5/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for image_comfil.qrc"
 	/usr/bin/cmake -E cmake_autorcc /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/CMakeFiles/QT_Project_JaeminHa_fix_autogen.dir/AutoRcc_image_comfil_EWIEGA46WW_Info.json Debug
@@ -97,46 +97,46 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/QT_Project_JaeminHa_fix_autogen/mocs_comp
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/QT_Project_JaeminHa_fix_autogen/mocs_compilation.cpp -o CMakeFiles/QT_Project_JaeminHa_fix.dir/QT_Project_JaeminHa_fix_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o: CMakeFiles/QT_Project_JaeminHa_fix.dir/flags.make
-CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/main.cpp
+CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o: ../../main.cpp
 CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o: CMakeFiles/QT_Project_JaeminHa_fix.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o -MF CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o.d -o CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o -c /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o -MF CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o.d -o CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o -c /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/main.cpp
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/main.cpp > CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/main.cpp > CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.i
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/main.cpp -o CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/main.cpp -o CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.s
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o: CMakeFiles/QT_Project_JaeminHa_fix.dir/flags.make
-CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/mainwindow.cpp
+CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o: ../../mainwindow.cpp
 CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o: CMakeFiles/QT_Project_JaeminHa_fix.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o -MF CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o.d -o CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o -c /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/mainwindow.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o -MF CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o.d -o CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o -c /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/mainwindow.cpp
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/mainwindow.cpp > CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/mainwindow.cpp > CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.i
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/mainwindow.cpp -o CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/mainwindow.cpp -o CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.s
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o: CMakeFiles/QT_Project_JaeminHa_fix.dir/flags.make
-CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o: /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/secondwindow.cpp
+CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o: ../../secondwindow.cpp
 CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o: CMakeFiles/QT_Project_JaeminHa_fix.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o -MF CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o.d -o CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o -c /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/secondwindow.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o -MF CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o.d -o CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o -c /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/secondwindow.cpp
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/secondwindow.cpp > CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/secondwindow.cpp > CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.i
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa/secondwindow.cpp -o CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/secondwindow.cpp -o CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.s
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp.o: CMakeFiles/QT_Project_JaeminHa_fix.dir/flags.make
 CMakeFiles/QT_Project_JaeminHa_fix.dir/QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp.o: QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp
@@ -185,6 +185,6 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/clean:
 .PHONY : CMakeFiles/QT_Project_JaeminHa_fix.dir/clean
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/depend: QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp
-	cd /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/CMakeFiles/QT_Project_JaeminHa_fix.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/CMakeFiles/QT_Project_JaeminHa_fix.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/QT_Project_JaeminHa_fix.dir/depend
 
