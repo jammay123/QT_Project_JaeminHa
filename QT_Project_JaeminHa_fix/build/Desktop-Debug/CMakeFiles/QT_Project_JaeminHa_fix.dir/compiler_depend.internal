@@ -336,6 +336,7 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/QT_Project_JaeminHa_fix_autogen/mocs_comp
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
  /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/build/Desktop-Debug/QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/moc_secondwindow.cpp
  /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/secondwindow.h
+ /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/mainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
@@ -354,8 +355,9 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o
  /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/main.cpp
  /usr/include/stdc-predef.h
  /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/secondwindow.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+ /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/mainwindow.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -676,6 +678,10 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
@@ -1065,8 +1071,9 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o
  /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/secondwindow.cpp
  /usr/include/stdc-predef.h
  /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/secondwindow.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+ /home/jammay/QT_Project_JaeminHa/QT_Project_JaeminHa_fix/mainwindow.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -1387,6 +1394,10 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
@@ -1418,7 +1429,6 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
