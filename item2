@@ -1,0 +1,6 @@
+item1(cookie) -> player_hp : + 1
+item2(reload) -> nowBullet : + 1
+item3(critical) -> player_hp : -2
+item4(insight) -> realshot함수 == 1이면 real bullet, else fakebullet
+item5(flash) -> 총이 50&확률로 한 플레이어에게 발사됌
+
