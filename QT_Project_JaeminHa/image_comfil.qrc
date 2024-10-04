@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/image_comfil">
+        <file>image_comfil.qrc</file>
+        <file>mainpage_backgoround1.jpg</file>
+        <file>hongchul_me.jpg</file>
+        <file>revolver.jpg</file>
+        <file>russian_rullet_image.jpg</file>
+        <file>png-transparent-pixel-heart.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>png-transparent-pixel-heart.png</file>
+    </qresource>
+</RCC>
