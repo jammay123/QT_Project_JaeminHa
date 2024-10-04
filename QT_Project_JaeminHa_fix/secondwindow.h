@@ -5,6 +5,7 @@
 #include <QTimer>
 #include <cstdlib>
 #include <ctime>
+#include <QPropertyAnimation>
 
 namespace Ui {
 class secondwindow;
@@ -77,5 +78,6 @@ private:
     QString getInventoryText();
     void opponentUseItems();
     bool haveinsight = false;
+    void shakeGunImg();
 };
 #endif // SECONDWINDOW_H

@@ -72,6 +72,7 @@ void secondwindow::on_shoot_btn_clicked()           //shoot버튼 및 상호작�
     bool save_result = RR.realshot();       //저장을 해주는 과정으로 함수를 한번 사용 -> realshot 함수를 써야만 nowbullet이 1더해짐
     if(save_result)
     {
+        shakeGunImg();
         playerHP--;
         displayText("당신이 실탄을 쏘았습니다! 당신의 HP가 1 감소했습니다.");
         ui->my_hp_lcd->display(playerHP);
@@ -100,6 +101,7 @@ void secondwindow::opponentTurn()
         bool save_result = RR.realshot();
         if(save_result)
         {
+            shakeGunImg();
             opponentHP--;
             displayText("상대방이 실탄을 쏘았습니다! 상대방의 HP가 1 감소했습니다.");
             ui->enemy_hp_lcd->display(opponentHP);
@@ -377,14 +379,13 @@ void secondwindow::opponentUseItems()
         {
             displayText("상대방이 통찰을 사용했습니다! 다음 총알은 실탄입니다.");
 
-            // 실탄일 경우, 재장전 또는 치명타 사용
-            if (opponentitem[1] > 0) // 재장전 사용 가능
+            if (opponentitem[1] > 0)
             {
                 opponentitem[1]--;
                 RR.nowBullet = (RR.nowBullet + 1) % 6;
                 displayText("상대방이 재장전 아이템을 사용했습니다! 총알 위치가 변경되었습니다.");
             }
-            else if (opponentitem[2] > 0) // 치명타 사용 가능
+            else if (opponentitem[2] > 0)
             {
                 opponentitem[2]--;
                 if (RR.realshot())
@@ -441,4 +442,15 @@ void secondwindow::opponentUseItems()
         }
         checkGameOver();
     }
+}
+
+void secondwindow::shakeGunImg()
+{
+    QPropertyAnimation *shakeAnimation = new QPropertyAnimation(ui->gunlabel, "pos");
+    shakeAnimation->setDuration(500);
+    shakeAnimation->setStartValue(ui->gunlabel->pos());
+    shakeAnimation->setKeyValueAt(0.25, ui->gunlabel->pos() + QPoint(10, 0));
+    shakeAnimation->setKeyValueAt(0.75, ui->gunlabel->pos() + QPoint(-10, 0));
+    shakeAnimation->setEndValue(ui->gunlabel->pos());
+    shakeAnimation->start(QAbstractAnimation::DeleteWhenStopped);
 }

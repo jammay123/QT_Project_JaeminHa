@@ -338,7 +338,15 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/QT_Project_JaeminHa_fix_autogen/mocs_comp
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QPropertyAnimation \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpropertyanimation.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariantanimation.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeasingcurve.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/c++/11/variant
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o: ../../main.cpp \
   /usr/include/stdc-predef.h \
@@ -668,6 +676,14 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o: ../../main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QPropertyAnimation \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpropertyanimation.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariantanimation.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeasingcurve.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/c++/11/variant \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
@@ -675,10 +691,7 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/main.cpp.o: ../../main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /usr/include/c++/11/variant
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o: ../../mainwindow.cpp \
   /usr/include/stdc-predef.h \
@@ -1037,7 +1050,12 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/mainwindow.cpp.o: ../../mainwindow.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QPropertyAnimation \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpropertyanimation.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariantanimation.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeasingcurve.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
 
 CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o: ../../secondwindow.cpp \
   /usr/include/stdc-predef.h \
@@ -1367,11 +1385,17 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o: ../../secondwindow.cp
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
-  QT_Project_JaeminHa_fix_autogen/include/ui_secondwindow.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QPropertyAnimation \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpropertyanimation.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariantanimation.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeasingcurve.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/c++/11/variant \
+  QT_Project_JaeminHa_fix_autogen/include/ui_secondwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
@@ -1380,7 +1404,6 @@ CMakeFiles/QT_Project_JaeminHa_fix.dir/secondwindow.cpp.o: ../../secondwindow.cp
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLCDNumber \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlcdnumber.h \
@@ -1410,12 +1433,6 @@ QT_Project_JaeminHa_fix_autogen/include/ui_secondwindow.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:
 
-/usr/include/c++/11/variant:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
@@ -1427,6 +1444,16 @@ QT_Project_JaeminHa_fix_autogen/include/ui_secondwindow.h:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
+
+/usr/include/c++/11/variant:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeasingcurve.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariantanimation.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlcdnumber.h:
 
@@ -1570,6 +1597,8 @@ QT_Project_JaeminHa_fix_autogen/include/ui_mainwindow.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QPropertyAnimation:
+
 /usr/include/c++/11/ratio:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
@@ -1611,6 +1640,8 @@ QT_Project_JaeminHa_fix_autogen/include/ui_mainwindow.h:
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 QT_Project_JaeminHa_fix_autogen/mocs_compilation.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpropertyanimation.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
@@ -2097,6 +2128,8 @@ QT_Project_JaeminHa_fix_autogen/EWIEGA46WW/qrc_image_comfil.cpp:
 /usr/include/c++/11/bits/ostream_insert.h:
 
 /usr/include/c++/11/cstdio:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h:
 
 /usr/include/stdio.h:
 
